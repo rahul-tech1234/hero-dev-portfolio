@@ -138,3 +138,44 @@ nav .menu a{
     font-size: 20px;
     font-weight: 700;
 }
+#skills{
+    padding-top: 131px;
+    /* text-align: center; */
+}
+#skills .skills_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skills .skills_container .skill_box{
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.skill_card{
+    border-radius: 5px;
+}
+.skill_box .skill_card{
+    padding: 20px;
+    box-shadow: 0 6px 50px 0 #00000031;
+}
+.skill_card img{
+    display: inline-block;
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill_card h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+.skill_card p{
+    font-size: 16px;
+    line-height: 28px;
+    color:#757575;
+}
+
+
+
+
