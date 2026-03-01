@@ -27,6 +27,7 @@
 .section_heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section_heading h2 {
     font-size: 35px;
@@ -40,6 +41,9 @@
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
+}
+.text_center{
+    text-align: center;
 }
 /* main style */
 header{
@@ -107,7 +111,7 @@ nav .menu a{
     max-width: 585px;
     vertical-align: middle;
 }
-#about{
+#about,#skills,#resume{
     padding-top: 132px;
 }
 #about .about_container{
@@ -138,10 +142,7 @@ nav .menu a{
     font-size: 20px;
     font-weight: 700;
 }
-#skills{
-    padding-top: 131px;
-    /* text-align: center; */
-}
+
 #skills .skills_container{
     width: 71%;
     max-width: 1140px;
@@ -175,7 +176,72 @@ nav .menu a{
     line-height: 28px;
     color:#757575;
 }
-
-
-
-
+#resume .resume_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    gap: 24px   ;
+}
+.resume_container .section_title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume_card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume_card .card_title{
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume_card .card_info{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume_card .card_text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.resume_card hr{
+    margin: 30px 0;
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 117px;
+}
+.footer_container .social{
+    max-width: 562px;
+}
+.footer_container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer_container .social p{
+    color: #474747;
+    margin-bottom: 20px;
+}
+.footer_container icons a{
+    margin-right: 24px;
+}
+.footer_container form input[type="text"],
+.footer_container form textarea{
+    width:461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
